@@ -1,0 +1,26 @@
+{
+  "name": "imarinho-dev.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss src/input.css -o dist/main.css",
+    "devserver": "live-server ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imarinho-dev/imarinho-dev.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imarinho-dev/imarinho-dev.github.io/issues"
+  },
+  "homepage": "https://github.com/imarinho-dev/imarinho-dev.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.0"
+  }
+}

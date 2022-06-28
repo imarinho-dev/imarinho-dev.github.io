@@ -1,0 +1,23 @@
+{
+  "name": "imarinho-dev.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imarinho-dev/imarinho-dev.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imarinho-dev/imarinho-dev.github.io/issues"
+  },
+  "homepage": "https://github.com/imarinho-dev/imarinho-dev.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
